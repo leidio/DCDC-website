@@ -791,8 +791,8 @@ td .right {
 
 /* Register Window */
 #register-window {
-	top: calc(50% - 200px);
-	left: calc(50% - 400px);
+	/*top: calc(50% - 200px);
+	left: calc(50% - 400px);*/
 	width: 45%;
 	height: auto;
 	z-index: 1002;
@@ -1003,7 +1003,7 @@ td .right {
     	.table {width:90%;}
     	.tips {width:90%;}
     	.contents {width:90%;}
-    	#register {width:75%;}
+    	#register-window {width:75%;}
     	.preface {width:90%;}
     	#faq {width:90%;}
 
@@ -1016,7 +1016,7 @@ td .right {
 			.table {width:80%;}
 			.tips {width:80%;}
 			.contents {width:80%;}
-			#register {width:65%;}
+			#register-window {width:65%;}
 			.preface {width:80%;}
 			#faq {width:80%;}
 
