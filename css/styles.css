@@ -1038,7 +1038,7 @@ td .right {
 
     /* - - - - - - D E S K T O P  - - - - - -  */
     /* Medium Devices, Desktops */
-    @media only screen and (min-width : min-width:992px) {
+    @media only screen and (min-width:992px) {
 
     		.table {width:50%;}
 			.tips {width:50%;}
