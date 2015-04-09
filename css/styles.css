@@ -992,35 +992,39 @@ td .right {
 /* - - - - - - - - - - - M O B I L E    F I R S T    R E S P O N S I V E    R U L E S - - - - - - - - - - - */
 
     /* Custom, iPhone Retina */ 
-    @media only screen and (min-width : 320px) {
+    @media only screen and (min-width : 320px) and (max-width:479px) {
         
     }
 
     /*  - - - - - - P H O N E S - - - - - - - */
     /* Extra Small Devices, Phones */ 
-    @media only screen and (min-width : 480px) {
+    @media only screen and (min-width : 480px) and (max-width:767px) {
 
     	.table {width:90%;}
     	.tips {width:90%;}
     	.contents {width:90%;}
     	.register {width:75%;}
+    	.preface {width:90%;}
+    	#faq {width:90%;}
 
     }
 
     /* - - - - - - T A B L E T - - - - - - - - */
     /* Small Devices, Tablets */
-    @media only screen and (min-width : 768px) {
+    @media only screen and (min-width : 768px) and (max-width:991px) {
 
 			.table {width:80%;}
 			.tips {width:80%;}
 			.contents {width:80%;}
 			.register {width:65%;}
+			.preface {width:80%;}
+			#faq {width:80%;}
 
     }
 
     /* - - - - - - D E S K T O P  - - - - - -  */
     /* Medium Devices, Desktops */
-    @media only screen and (min-width : 992px) {
+    @media only screen and (min-width : 992px) and (max-width:1199px) {
 
 
     /* - - - - - - H U G E   S C R E E N S - - - - - - - - - */
