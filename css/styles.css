@@ -578,7 +578,7 @@ textarea {
 .table p {
     text-align: left;
     color: black;
-    padding-left: 15%;
+    /*padding-left: 15%;*/
     color: #666;
     font-size: 1.2em;
     line-height: 200%;
