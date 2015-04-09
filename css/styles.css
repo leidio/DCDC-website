@@ -989,10 +989,23 @@ td .right {
 
 
 
+
+
+
+
+
+
 /* - - - - - - - - - - - M O B I L E    F I R S T    R E S P O N S I V E    R U L E S - - - - - - - - - - - */
 
     /* Custom, iPhone Retina */ 
-    @media only screen and (min-width : 320px) and (max-width:479px) {
+    @media only screen and (min-width : 192px) and (max-width:479px) {
+
+    	.table {width:90%;}
+    	.tips {width:90%;}
+    	.contents {width:90%;}
+    	#register-window {width:75%;}
+    	.preface {width:90%;}
+    	#faq {width:90%;}
         
     }
 
