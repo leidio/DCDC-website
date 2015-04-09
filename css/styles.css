@@ -526,21 +526,6 @@ textarea {
     
 }
 
-.column-container {
-	display:block;
-	width:60%;
-	margin:20px auto;
-	position: relative;
-}
-
-.column {
-	vertical-align: top;
-	width: 27%;
-	padding: 0 3% 0 3%;
-	margin: 0 auto;
-	display:inline-block;
-}
-
 .column>h5 {
 	padding: 10px 0;
 }
@@ -1004,11 +989,47 @@ td .right {
 
 
 
+/* - - - - - - - - - - - M O B I L E    F I R S T    R E S P O N S I V E    R U L E S - - - - - - - - - - - */
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        
+    }
+
+    /*  - - - - - - P H O N E S - - - - - - - */
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    	.table {width:90%;}
+    	.tips {width:90%;}
+    	.contents {width:90%;}
+    	.register {width:75%;}
+
+    }
+
+    /* - - - - - - T A B L E T - - - - - - - - */
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+			.table {width:80%;}
+			.tips {width:80%;}
+			.contents {width:80%;}
+			.register {width:65%;}
+
+    }
+
+    /* - - - - - - D E S K T O P  - - - - - -  */
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
 
 
+    /* - - - - - - H U G E   S C R E E N S - - - - - - - - - */
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
 
+    		.table {width:50%;}
 
-
+    }
 
 
 
