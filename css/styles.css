@@ -585,17 +585,35 @@ textarea {
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - T A B L E S  - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
+.table {
+	width:50%;
+	margin-bottom:5%;
+}
+
+.table p {
+    text-align: left;
+    color: black;
+    padding-left: 15%;
+    color: #666;
+    font-size: 1.2em;
+    line-height: 200%;
+    }
+
+.table img {
+
+}
+
 .icon-big {
     display: block;
     width:100px;
     padding-top:7%;
 }
 
+/*
 table {
     width:50%;
     margin:auto;
 }
-
 
 td {
     vertical-align:top;
@@ -610,15 +628,7 @@ td .right {
     column-width:70%;
 }
 
-td p {
-    text-align: left;
-    color: black;
-    padding-left: 15%;
-    color: #666;
-    font-size: 1.2em;
-    line-height: 200%;
-    }
-
+*/
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - N A V   B A R S - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .navbar {
 	z-index: 100;
@@ -989,6 +999,22 @@ td p {
 #contact-window a { display: inline-block; margin-right: 10px; }
 #contact-window div { margin-bottom: 40px }
 #contact-window h5 { display: block; margin-bottom: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
