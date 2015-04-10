@@ -230,6 +230,20 @@ textarea {
 }
 
 .title {
+  padding-left: 20%;
+  height: 200px;
+  width: 80%;
+  position: absolute;
+  top: 20%;
+}
+
+
+/*
+
+OLD TITLE
+
+
+.title {
 	margin: auto;
 	padding-left: 50%;
 	height: 200px;
@@ -237,6 +251,7 @@ textarea {
 	position: absolute;
 	top: 50%;
 }
+*/
 
 .white {
     color:white;
@@ -1035,6 +1050,12 @@ td .right {
 			.preface {width:80%;}
 			#faq {width:80%;}
 			#intro>h3 {width:80%;}
+			.title {margin: auto;
+					padding-left: 50%;
+					height: 200px;
+					width: 50%;
+					position: absolute;
+					top: 50%;}
 
     }
 
@@ -1050,6 +1071,12 @@ td .right {
 			.preface {width:50%;}
 			#faq {width:50%;}
 			#intro>h3 {width:50%;}
+			.title {margin: auto;
+					padding-left: 50%;
+					height: 200px;
+					width: 50%;
+					position: absolute;
+					top: 50%;}
 
 
     /* - - - - - - H U G E   S C R E E N S - - - - - - - - - */
