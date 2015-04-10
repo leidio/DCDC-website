@@ -625,7 +625,6 @@ td .right {
 }
 
 #navbar-main {
-	/*border-top: 5px solid black;*/
 	position: absolute;
 	top: 0;
 	padding: 20px 0 10px 0;
@@ -633,7 +632,7 @@ td .right {
 }
 
 #navbar-main div {
-	display: inline-block;
+
 }
 
 #navbar-top-left {
