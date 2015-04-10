@@ -521,7 +521,7 @@ textarea {
     margin-right:auto;
     margin-top:5%;
     margin-bottom:5%;
-	width: 50%;
+	width: 80%;
 	line-height: 150%;
     
 }
@@ -578,7 +578,7 @@ textarea {
 .table p {
     text-align: left;
     color: black;
-    /*padding-left: 15%;*/
+    /*padding-left: 5%;*/
     color: #666;
     font-size: 1.2em;
     line-height: 200%;
@@ -1021,6 +1021,7 @@ td .right {
     	.preface {width:90%;}
     	#faq {width:90%;}
 
+
     }
 
     /* - - - - - - T A B L E T - - - - - - - - */
@@ -1028,11 +1029,13 @@ td .right {
     @media only screen and (min-width : 768px) and (max-width:991px) {
 
 			.table {width:80%;}
+			.table p {padding-left:2%;}
 			.tips {width:80%;}
 			.contents {width:80%;}
 			#register-window {width:65%;}
 			.preface {width:80%;}
 			#faq {width:80%;}
+			#intro>h3 {width:80%;}
 
     }
 
@@ -1041,11 +1044,13 @@ td .right {
     @media only screen and (min-width:992px) {
 
     		.table {width:50%;}
+			.table p {padding-left:2%;}
 			.tips {width:50%;}
 			.contents {width:50%;}
 			#register-window {width:45%;}
 			.preface {width:50%;}
 			#faq {width:50%;}
+			#intro>h3 {width:50%;}
 
 
     /* - - - - - - H U G E   S C R E E N S - - - - - - - - - */
