@@ -521,7 +521,6 @@ textarea {
     margin-right:auto;
     margin-top:5%;
     margin-bottom:5%;
-	width: 80%;
 	line-height: 150%;
     
 }
@@ -592,6 +591,7 @@ textarea {
     display: block;
     width:100px;
     padding-top:7%;
+    margin:auto;
 }
 
 /*
